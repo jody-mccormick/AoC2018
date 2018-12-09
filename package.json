@@ -1,0 +1,30 @@
+{
+  "name": "AoC2018",
+  "version": "1.0.0",
+  "description": "Advent of Code 2018 in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "tsc",
+    "start": "node ./js/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jody-mccormick/AoC2018.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jody-mccormick/AoC2018/issues"
+  },
+  "homepage": "https://github.com/jody-mccormick/AoC2018#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.12",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "request": "^2.88.0"
+  }
+}

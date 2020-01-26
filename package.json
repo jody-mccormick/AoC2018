@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart": "tsc",
-    "start": "node ./js/start.js"
+    "start": "ts-node start.ts"
   },
   "repository": {
     "type": "git",
@@ -25,6 +24,7 @@
   },
   "dependencies": {
     "bluebird": "^3.5.3",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "ts-node": "^8.6.2"
   }
 }
